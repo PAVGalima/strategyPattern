@@ -15,10 +15,10 @@ public class GameApp {
         GameCharacter wizard = new Wizard();
         wizard.performAttack();
         wizard.performDefense();
+
         System.out.println();
         GameCharacter archer = new Archer();
         archer.performAttack();
         archer.performDefense();
     }
-
 }
